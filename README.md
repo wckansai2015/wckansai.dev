@@ -2,7 +2,7 @@
 
 ## How to use
 
-1. Get the box for wckansai.
+1. Get the box for [wckansai](https://www.dropbox.com/s/br056hbdx9sisaj/package.box).
 1. `vagrant box add wckansai path/to/wckansai.box`
 1. `vagrant up`
 
