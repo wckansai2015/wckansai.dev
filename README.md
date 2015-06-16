@@ -2,12 +2,11 @@
 
 ## How to use
 
-1. Get the box for [wckansai](https://www.dropbox.com/s/3nten5btyvsip4j/wckansai.box?dl=0).
+1. Download box from [here](https://www.dropbox.com/s/3nten5btyvsip4j/wckansai.box?dl=0).
 1. `vagrant box add wckansai path/to/wckansai.box`
 1. Add `192.168.88.88 wpkansai.dev` to your hosts file.
 1. `vagrant up`
-1. Finally, visit `http://wckansai.dev/`.
-1. That's it!!
+1. Visit `http://wckansai.dev/`.
 
 ## How to uninstall
 
