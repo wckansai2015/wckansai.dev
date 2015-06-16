@@ -6,7 +6,9 @@ export PATH=/usr/local/bin:$PATH
 
 cd /var/www/wordpress
 
-if [ -e '/var/www/wordpress/wp-config.php' ]; then
+if [ -e /var/www/wordpress/wp-config.php ]; then
+    rm -f /var/www/wordpress/wp-config.php
+fi
 
 wp core config --dbname=wordpress --dbuser=wordpress --dbpass=wordpress --extra-php <<PHP
 define('WP_DEBUG', true);
