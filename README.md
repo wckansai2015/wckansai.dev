@@ -1,4 +1,4 @@
-# VCCW for WordCamp Kansai 2015 hands-on
+# wckansai.dev
 
 ## How to use
 
