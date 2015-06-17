@@ -19,7 +19,8 @@ define('WP_SITEURL', 'http://wckansai.dev');
 PHP
 
 wp db reset --yes
-wp core install --url="http://wckansai.dev" --title="Welcome to the WordCamp Kansai 2015" --admin_user=admin --admin_password=admin --admin_email="admin@example.com"
+wp core install --url="http://wckansai.dev" --title="Welcome to the WordCamp Kansai 2015" \
+    --admin_user=admin --admin_password=admin --admin_email="admin@example.com"
 
 # wp cron event run wp_update_plugins
 # wp plugin update --all
